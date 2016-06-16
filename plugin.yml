@@ -1,0 +1,18 @@
+name: TradePro
+main: Hittmana\TradePro\MainClass
+version: 0.3.5
+api: 1.4.0
+description: Test plugin
+commands:
+  trade:
+    description: Send trade request.
+    permission: trade.cmd
+    usage: /trade 
+  tradeaccept:
+    description: Accept trade request
+    permission: tradeaccept.cmd
+    usage: /tradeaccept <player> 
+  tradedecline:
+    description: Decline trade request
+    permission: tradedecline.cmd
+    usage: /tradedecline 
